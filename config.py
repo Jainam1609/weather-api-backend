@@ -1,0 +1,4 @@
+import os
+
+GCS_BUCKET_NAME = os.getenv("GCS_BUCKET_NAME", "weather-data-files")
+GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
